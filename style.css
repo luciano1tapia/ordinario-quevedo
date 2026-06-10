@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f6f8;
+  }
+  
+  .menu {
+    display: flex;
+    width: fit-content;
+    border: 2px solid #285494;
+    background-color: #559be6;
+  }
+  
+  .menu a {
+    padding: 10px 30px;
+    color: #1a1a1a;
+    font-size: 18px;
+    text-decoration: none;
+    border-right: 2px solid #285494;
+    display: inline-block;
+  }
+  
+  .menu a:last-child {
+    border-right: none;
+  }
+  
+  .menu a:hover, .menu a.active {
+    background-color: #285494;
+    color: white;
+  }
+  
+  .contenedor {
+    background-color: #72bdd9;
+    border: 6px solid #1c3c63;
+    border-radius: 20px;
+    padding: 30px 40px;
+    margin-top: 30px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
+  }
+  
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .grupo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .grupo label {
+    width: 80px;
+    font-weight: bold;
+    color: #0b2b4d;
+    font-size: 16px;
+  }
+  
+  .grupo input {
+    padding: 6px;
+    width: 320px;
+    border: 1px solid #ccc;
+    background-color: #fcfae8;
+  }
+  
+  .btn-buscar {
+    background-color: #f5f9eb;
+    color: #1c3b8a;
+    font-size: 24px;
+    font-style: italic;
+    border: none;
+    padding: 40px 30px;
+    cursor: pointer;
+  }
